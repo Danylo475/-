@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+
+    <style>
+        header {
+        }
+
+        div {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>top de actores</h1>
+</header>
+
+<main>
+
+    <article>
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Marlon_Brando_publicity_for_One-Eyed_Jacks.png/330px-Marlon_Brando_publicity_for_One-Eyed_Jacks.png"
+             alt="Marlon Brando">
+        <h2>Marlon Brando</h2>
+    </article>
+
+    <br><br><br><br><br><br>
+    <hr>
+
+    <article>
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Robert_de_Niro-9578.jpg/250px-Robert_de_Niro-9578.jpg"
+             alt="Robert De Niro">
+        <h2>Robert De Niro</h2>
+    </article>
+
+    <br><br><br><br><br><br>
+    <hr>
+
+    <article>
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Al_Pacino_2016_%2830401544240%29.jpg/250px-Al_Pacino_2016_%2830401544240%29.jpg"
+             alt="Al Pacino">
+        <h2>Al Pacino</h2>
+    </article>
+
+    <section>
+        <h2>Las mejores películas</h2>
+
+        <table>
+            <caption>Películas famosas</caption>
+
+            <thead>
+                <tr>
+                    <th>Película</th>
+                    <th>Año</th>
+                    <th>Género</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>El padrino</td>
+                    <td>1972</td>
+                    <td>Drama</td>
+                </tr>
+
+                <tr>
+                    <td>Matrix</td>
+                    <td>1999</td>
+                    <td>Ciencia ficción</td>
+                </tr>
+
+                <tr>
+                    <td>Forrest Gump</td>
+                    <td>1994</td>
+                    <td>Drama</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <br><br><br><br><br><br><br><br>
+
+    <div>
+        <a href="https://www.imdb.com/es-es/title/tt0068646/" target="_blank">
+            Esto es "El padrino"
+        </a>
+    </div>
+
+    <br>
+
+    <div>
+        <a href="https://www.imdb.com/es-es/title/tt0133093/" target="_blank">
+            Esto es "Matrix"
+        </a>
+    </div>
+
+    <br>
+
+    <div>
+        <a href="https://www.imdb.com/es-es/title/tt0109830/" target="_blank">
+            Esto es "Forrest Gump"
+        </a>
+    </div>
+
+    <br>
+
+    <form action="/submit" method="POST">
+
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Qué quiere escribir:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+</main>
+
+</body>
+
+</html>
